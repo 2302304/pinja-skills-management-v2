@@ -39,9 +39,9 @@ const ConsultantList = () => {
   ];
 
   const filteredConsultants = consultants.filter((consultant) =>
-    consultant.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    consultant.expertise.toLowerCase().includes(searchTerm.toLowerCase())
+    consultant.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
+  
 
   return (
     <div>
