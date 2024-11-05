@@ -1,26 +1,21 @@
 .consultant-card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
-    background-color: #ffffff;
-    width: 250px;
-  }
-  
-  .consultant-card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .consultant-card h3 {
-    margin: 0;
-    font-size: 1.5em;
-  }
-  
-  .consultant-card p {
-    margin: 8px 0 0;
-    font-size: 1em;
-    color: #666;
-  }
-  
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  background-color: #ffffff;
+  width: 250px;
+}
+
+.consultant-card h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.consultant-card p {
+  margin: 8px 0;
+  font-size: 1em;
+  color: #666;
+}
